@@ -399,28 +399,53 @@ section {
 .container1 .image{
 	float: right;
 	padding-left: 20px;
-	padding-right: 180px;
-	margin-right:-20px;
-	margin-top: 30px;
+	padding-right: 280px;
+	margin-right:-200px;
+	margin-top: -px;
 }
 .container1 .text0{
 	font-size: 25px;
 	padding:100px; 
-	background-color: #fcf7fb;
-	border-radius: 0 0 0 35px;
-	box-shadow: 0px 5px #d6d6d6;
-	width: 1480px;
-	height: 350px;
+	background-color:  #fff7fd;
+	color:black;
+	width: 1300px;
+	height: 300px;
+	font-weight: 200;
 }
 
 .container1 .image1{
 	float: left;
-	padding-right: 20px;
-	margin-left: -100px;
-	margin-top:110px;
+	padding-right: 10px;
+	margin-left: px;
+	margin-top:-120px;
 	
 }
-.activities
+/*-------------------------------------------------------------
+Founder and Secertary
+--------------------------------------------------------------*/
+.container .img
+{
+  float: right;
+  padding-left:20px;
+  padding-right: 20px;
+  margin-right:-20px;
+  padding-top: 130px;
+  padding-right: 80px;
+ 
+}
+
+.container .text
+{
+  
+  font-size: 20px;
+  padding:30px; 
+  background-color: #D0F0C0;
+  padding-top: 90px;
+  width: 1300px;
+  height: 500px;
+} 
+
+/*.activities
 {
   display: flex;
   box-sizing: border-box;
@@ -476,37 +501,82 @@ section {
   padding-right: 20px;
   margin-right:-20px;
   padding-top:80px;
-}
+}*/
 /*-------------------------------------------------------------
-Join Us Button
---------------------------------------------------------------*/
-.button1 {
-  border: 20px;
-  color: white;
-  padding: 15px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-  background-color: #4CAF50; 
-  color: white; 
-  border: 2px solid #4CAF50;
-  border-radius: 30px;
-  border-color: #33c9cc;
-  margin-right:px;
-  margin-left:590px;
-  margin-bottom: 20px;
-  
-  
-  
+ Our mission vision goals
+ --------------------------------------------------------------*/
+.vision{
+  padding: 20px;
 }
 
-.button1:hover {
-  background-color: #4CAF50;
-  color: pink;
+.obj2 .img2{
+  margin-left:20px;
+  margin-top: -150px;
 }
+
+.column{
+  color: whitesmoke;
+  height: 200px;
+  width: 100px;
+  margin-top: 100px;
+}
+
+.column {
+  display: flex;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*-------------------------------------------------------------
+ Our Objective
+ --------------------------------------------------------------*/
+.object{
+  padding: 20px;
+}
+ h1{
+  text-align: center;
+  color: balck;
+  text-decoration: underline;
+  text-decoration-color: #1ca7e8;
+}
+.object .text1{
+  font-size: 25px;
+  padding-right:250px; 
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  background-color: #1ca7e8;
+  box-shadow: 0px 5px #d6d6d6;
+  color: white;
+  width: 1470px;  
+}
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #aef272;
+    border-bottom: 50px solid transparent;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+/*-------------------------------------------------------------
+ Mission and vision
+--------------------------------------------------------------*/
+
+.mission .img1{
+    padding-left: 500px;
+    margin-bottom: -50px;
+
+}
+/*-------------------------------------------------------------
+ Button
+--------------------------------------------------------------*/
 
 .button2{
   border: 20px;
@@ -516,15 +586,15 @@ Join Us Button
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  margin: 4px 2px;
+  margin: 6px 2px;
   cursor: pointer;
   background-color: #4CAF50; 
   color: White; 
   border: 2px solid #4CAF50;
   border-radius: 12px;
   border-color: #33c9cc;
-  margin-right:px;
-  margin-left:550px;
+  border-width: 5px;
+  margin-left:700px;
   margin-top: 30px;
 
 }
